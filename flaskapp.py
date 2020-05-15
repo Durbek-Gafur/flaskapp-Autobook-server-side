@@ -1101,7 +1101,7 @@ def one():
 			newLoadInfo=" ".join(["\n",loadDetails,"\n", str(r.status_code), errorTextCode])
 		null=None
 		isBot=str(loads["isBotRequest"])+"\t"+ loads["carrierDetails"]["carrierEngagementCategory"]
- 	duration= int(1000*(timeAfterAskLoad-timeBeforeAskLoad))
+	duration= int(1000*(timeAfterAskLoad-timeBeforeAskLoad))
 	timeAskLoadSummary=str(duration)
 	# TRANSMISSIONTOTAL[carrierNumber]=TRANSMISSIONTOTAL[carrierNumber]+(timeAfterAskLoad-timeBeforeAskLoad)
 	# transmissionAverage = str(int(1000*(TRANSMISSIONTOTAL[carrierNumber]/(nameOfThread+1)*NUMBER_OF_CAR)))
@@ -1252,7 +1252,7 @@ def many():
 	# return st #"lalal "+str(timeAfterAskLoad-timeBeforeAskLoad)+" "+askLoadRequest.text #+"\n"+ jsonify()
 
 ############################################################################
-############################## 	PICK UP ONLY  ##############################
+##############################	PICK UP ONLY  ##############################
 ############################################################################
 @app.route('/manypu', methods=['POST'])
 def manypu():
@@ -1664,5 +1664,5 @@ def manydelrate():
 
 	 
 ############################################################################
-############################## 	PICK UP ONLY  ##############################
+##############################	PICK UP ONLY  ##############################
 ############################################################################
