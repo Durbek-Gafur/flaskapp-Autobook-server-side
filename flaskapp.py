@@ -1015,7 +1015,7 @@ def hello_world():
 	timeBeforeAskLoad=time.time()
 	askLoadRequest = SES.get(url, headers=request.headers)  #verify=False   
 	timeAfterAskLoad=time.time()
-  	return "lalal "+str(timeAfterAskLoad-timeBeforeAskLoad)+" "+askLoadRequest.text #+"\n"+ jsonify()
+	return "lalal "+str(timeAfterAskLoad-timeBeforeAskLoad)+" "+askLoadRequest.text #+"\n"+ jsonify()
 if __name__ == '__main__':
 	import_or_install(requests)
 	import_or_install(time)
@@ -1026,7 +1026,7 @@ if __name__ == '__main__':
 
 	# import requests
 	# import datetime
-  	app.run()
+	app.run()
 
 
 @app.route('/one', methods=['POST'])
@@ -1101,7 +1101,7 @@ def one():
 			newLoadInfo=" ".join(["\n",loadDetails,"\n", str(r.status_code), errorTextCode])
 		null=None
 		isBot=str(loads["isBotRequest"])+"\t"+ loads["carrierDetails"]["carrierEngagementCategory"]
-   	duration= int(1000*(timeAfterAskLoad-timeBeforeAskLoad))
+ 	duration= int(1000*(timeAfterAskLoad-timeBeforeAskLoad))
 	timeAskLoadSummary=str(duration)
 	# TRANSMISSIONTOTAL[carrierNumber]=TRANSMISSIONTOTAL[carrierNumber]+(timeAfterAskLoad-timeBeforeAskLoad)
 	# transmissionAverage = str(int(1000*(TRANSMISSIONTOTAL[carrierNumber]/(nameOfThread+1)*NUMBER_OF_CAR)))
