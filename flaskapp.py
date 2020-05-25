@@ -485,7 +485,7 @@ def validate(singleLoad,lnk,json_mylist,getLoadHeader):
 				 rslt = "Olloh bizga kifoya"
 			returnJsonMany["booked"]=returnJsonMany["booked"]+" "+str(r.status_code) +" "+rslt #r.status_code
 			loadjsonToText= jsonToText(singleLoad) #f1puname+" - "+ldelname+" - "+ str(singlepayout)		 
-			url_l = "https://api.telegram.org/bot874668348:AAG7tYxODGSua2uy_-YPfjpr2mMAJpArXbg/sendMessage?chat_id=971769511&text="+str(rslt)+" "+str(r.status_code)+" "+loadjsonToText
+			url_l = "https://api.telegram.org/bot1211014469:AAE7PKOFEd1gfBW3HO10E5zFS7GbmDNAIbA/sendMessage?chat_id=971769511&text="+str(rslt)+" "+str(r.status_code)+" "+loadjsonToText
 			resres = requests.get(url_l)
 			break
 
@@ -522,7 +522,7 @@ def validatePU(singleLoad,lnk,json_mylist,getLoadHeader):
 				 rslt = "Olloh bizga kifoya"
 			returnJsonMany["booked"]=returnJsonMany["booked"]+" "+str(r.status_code) +" "+rslt #r.status_code
 			loadjsonToText= jsonToText(singleLoad) #f1puname+" - "+ldelname+" - "+ str(singlepayout)		 
-			url_l = "https://api.telegram.org/bot874668348:AAG7tYxODGSua2uy_-YPfjpr2mMAJpArXbg/sendMessage?chat_id=971769511&text="+str(rslt)+" "+str(r.status_code)+" "+loadjsonToText
+			url_l = "https://api.telegram.org/bot1211014469:AAE7PKOFEd1gfBW3HO10E5zFS7GbmDNAIbA/sendMessage?chat_id=971769511&text="+str(rslt)+" "+str(r.status_code)+" "+loadjsonToText
 			resres = requests.get(url_l)
 			break
 	return
@@ -558,7 +558,7 @@ def validateDEL(singleLoad,lnk,json_mylist,getLoadHeader):
 				 rslt = "Olloh bizga kifoya"
 			returnJsonMany["booked"]=returnJsonMany["booked"]+" "+str(r.status_code) +" "+rslt #r.status_code
 			loadjsonToText= jsonToText(singleLoad) #f1puname+" - "+ldelname+" - "+ str(singlepayout)		 
-			url_l = "https://api.telegram.org/bot874668348:AAG7tYxODGSua2uy_-YPfjpr2mMAJpArXbg/sendMessage?chat_id=971769511&text="+str(rslt)+" "+str(r.status_code)+" "+loadjsonToText
+			url_l = "https://api.telegram.org/bot1211014469:AAE7PKOFEd1gfBW3HO10E5zFS7GbmDNAIbA/sendMessage?chat_id=971769511&text="+str(rslt)+" "+str(r.status_code)+" "+loadjsonToText
 			resres = requests.get(url_l)
 			break
 	return
@@ -596,7 +596,7 @@ def validatePUDEL(singleLoad,lnk,json_mylist,getLoadHeader):
 				 rslt = "Olloh bizga kifoya"
 			returnJsonMany["booked"]=returnJsonMany["booked"]+" "+str(r.status_code) +" "+rslt #r.status_code
 			loadjsonToText= jsonToText(singleLoad) #f1puname+" - "+ldelname+" - "+ str(singlepayout)		 
-			url_l = "https://api.telegram.org/bot874668348:AAG7tYxODGSua2uy_-YPfjpr2mMAJpArXbg/sendMessage?chat_id=971769511&text="+str(rslt)+" "+str(r.status_code)+" "+loadjsonToText
+			url_l = "https://api.telegram.org/bot1211014469:AAE7PKOFEd1gfBW3HO10E5zFS7GbmDNAIbA/sendMessage?chat_id=971769511&text="+str(rslt)+" "+str(r.status_code)+" "+loadjsonToText
 			resres = requests.get(url_l)
 			break
 	return
@@ -631,7 +631,7 @@ def validatePURATE(singleLoad,lnk,json_mylist,getLoadHeader):
 				 rslt = "Olloh bizga kifoya"
 			returnJsonMany["booked"]=returnJsonMany["booked"]+" "+str(r.status_code) +" "+rslt #r.status_code
 			loadjsonToText= jsonToText(singleLoad) #f1puname+" - "+ldelname+" - "+ str(singlepayout)		 
-			url_l = "https://api.telegram.org/bot874668348:AAG7tYxODGSua2uy_-YPfjpr2mMAJpArXbg/sendMessage?chat_id=971769511&text="+str(rslt)+" "+str(r.status_code)+" "+loadjsonToText
+			url_l = "https://api.telegram.org/bot1211014469:AAE7PKOFEd1gfBW3HO10E5zFS7GbmDNAIbA/sendMessage?chat_id=971769511&text="+str(rslt)+" "+str(r.status_code)+" "+loadjsonToText
 			resres = requests.get(url_l)
 			break
 	return
@@ -673,7 +673,7 @@ def validatePUDELRATE(singleLoad,lnk,json_mylist,getLoadHeader):
 				 rslt = "Olloh bizga kifoya"
 			returnJsonMany["booked"]=returnJsonMany["booked"]+" "+str(r.status_code) +" "+rslt #r.status_code
 			loadjsonToText= jsonToText(singleLoad) #f1puname+" - "+ldelname+" - "+ str(singlepayout)		 
-			url_l = "https://api.telegram.org/bot874668348:AAG7tYxODGSua2uy_-YPfjpr2mMAJpArXbg/sendMessage?chat_id=971769511&text="+str(rslt)+" "+str(r.status_code)+" "+loadjsonToText
+			url_l = "https://api.telegram.org/bot1211014469:AAE7PKOFEd1gfBW3HO10E5zFS7GbmDNAIbA/sendMessage?chat_id=971769511&text="+str(rslt)+" "+str(r.status_code)+" "+loadjsonToText
 			resres = requests.get(url_l)
 			break
 	return
@@ -713,7 +713,7 @@ def validateDELRATE(singleLoad,lnk,json_mylist,getLoadHeader):
 				 rslt = "Olloh bizga kifoya"
 			returnJsonMany["booked"]=returnJsonMany["booked"]+" "+str(r.status_code) +" "+rslt #r.status_code
 			loadjsonToText= jsonToText(singleLoad) #f1puname+" - "+ldelname+" - "+ str(singlepayout)		 
-			url_l = "https://api.telegram.org/bot874668348:AAG7tYxODGSua2uy_-YPfjpr2mMAJpArXbg/sendMessage?chat_id=971769511&text="+str(rslt)+" "+str(r.status_code)+" "+loadjsonToText
+			url_l = "https://api.telegram.org/bot1211014469:AAE7PKOFEd1gfBW3HO10E5zFS7GbmDNAIbA/sendMessage?chat_id=971769511&text="+str(rslt)+" "+str(r.status_code)+" "+loadjsonToText
 			resres = requests.get(url_l)
 			break
 	return
@@ -1095,7 +1095,7 @@ def one():
 			# returnJson["booked"]=tmpR
 			loadDetails=jsonToText(firstLoad)
 			returnJson["booked"]=str(r.status_code) +" "+weGotTheLoad
-			url_l = "https://api.telegram.org/bot874668348:AAG7tYxODGSua2uy_-YPfjpr2mMAJpArXbg/sendMessage?chat_id=971769511&text="+weGotTheLoad+str(r.status_code)+" "+loadDetails
+			url_l = "https://api.telegram.org/bot1211014469:AAE7PKOFEd1gfBW3HO10E5zFS7GbmDNAIbA/sendMessage?chat_id=971769511&text="+weGotTheLoad+str(r.status_code)+" "+loadDetails
 			resres = requests.get(url_l)
 			   
 			newLoadInfo=" ".join(["\n",loadDetails,"\n", str(r.status_code), errorTextCode])
